@@ -362,6 +362,9 @@ color: white;
     width: 80px;
     font-size: 30px 
 }
+#head{
+    margin-left: 10px;
+}
 }
 
 @media (min-width:375px) and (max-width:425px){
