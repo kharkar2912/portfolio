@@ -118,7 +118,7 @@ body {
 
 .about_line {
     display: flex;
-    align-items: center;
+    align-items: center; 
     gap: 50px;
 }
 
@@ -129,13 +129,7 @@ body {
     margin-left: 50px;
 }
 
-.line {
-    font-weight: bolder;
-    color: #A6BBCC;
-    font-size: 40px;
-    height: 20px;
 
-}
 
 .about_text p {
     color: white;
@@ -219,7 +213,8 @@ color: white;
     width: 614px;
     border-radius: 10px;
     /* border: 1px solid #A6BBCC; */
-    padding: 15px;      
+    padding: 15px;    
+    transition: 0.3s ease;  
 }
 .tech ul li{
     list-style: none;
@@ -239,6 +234,18 @@ color: white;
 .card_title {
 
     color: white;
+}
+.line img{
+    width: 100%;
+}
+#about_line{
+    width: 95%;
+}
+.about_head p{
+    width: 250px;
+}
+.card:hover{
+    transform: scale(1.1)
 }
 
 @keyframes slid {
@@ -264,3 +271,302 @@ color: white;
     }
 
 }
+
+@media (min-width:320px) and (max-width:374px){
+ .github img{
+        width: 50px;
+        height: 50px;
+    }
+    .list{
+        display: none;
+    }
+
+    #about_line{
+    width: 95%;
+}
+    .main p{
+        font-size: 25px;
+    }
+    .title{
+        font-size: 10px;
+    }
+    .left_text{
+        margin-left: 20px;
+    }
+    .contact_btn a{
+        font-size: 10px;
+    }
+
+    .hero{
+        gap:0px;
+    }
+    .right img{
+        width: 180px;
+        height: 250px;
+    }
+    #head{
+        font-size: 20px;
+    }
+    .about_line{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 95%;
+    }
+    .contact_head p{
+        width: 120px;
+    }
+    .contact_form p{
+        width: 80%;
+    }
+    .about_text p{
+        font-size: 15px;
+    }
+
+    .work_text p{
+        width: 80%;
+    }
+    .Social img{
+        width: 20px;
+        height: 20px;
+    }
+    .footer p{
+        font-size: 20px;
+    }
+    .card_title{
+        font-size: 15px;
+    }
+    .tech ul li{
+        font-size: 9px;
+    }
+    footer{
+        margin-top: 50px;
+    }
+    #submit_btn {
+        width: auto;
+    }
+
+    form input{
+        width: 70%;
+    }
+
+     .about_head p{
+    width: 80px;
+    font-size: 30px 
+}
+}
+
+@media (min-width:375px) and (max-width:425px){
+    .github img{
+        width: 50px;
+        height: 50px;
+    }
+    .list{
+        display: none;
+    }
+
+    #about_line{
+    width: 95%;
+}
+    .main p{
+        font-size: 35px;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .left_text{
+        margin-left: 20px;
+    }
+    .contact_btn a{
+        font-size: 15px;
+    }
+
+    .hero{
+        gap:0px;
+    }
+    .right img{
+        width: 180px;
+        height: 250px;
+    }
+    #head{
+        font-size: 25px;
+    }
+    .about_line{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 95%;
+    }
+    .contact_head p{
+        width: 150px;
+    }
+    .contact_form p{
+        width: 80%;
+    }
+    .about_text p{
+        font-size: 15px;
+    }
+
+    .work_text p{
+        width: 80%;
+    }
+    .Social img{
+        width: 20px;
+        height: 20px;
+    }
+    .footer p{
+        font-size: 20px;
+    }
+    .card_title{
+        font-size: 15px;
+    }
+    .tech ul li{
+        font-size: 9px;
+    }
+    footer{
+        margin-top: 50px;
+    }
+    #submit_btn {
+        width: auto;
+    }
+
+    form input{
+        width: 70%;
+    }
+
+     .about_head p{
+    width: 80px;
+    font-size: 30px 
+}
+}
+
+@media (min-width:425px) and (max-width:760px){
+    .list{
+        display: none;
+    }
+
+    #about_line{
+    width: 95%;
+}
+    .main p{
+        font-size: 35px;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .left_text{
+        margin-left: 30px;
+    }
+    .contact_btn a{
+        font-size: 15px;
+    }
+
+    .hero{
+        gap:0px;
+    }
+    .right img{
+        width: 200px;
+        height: 300px;
+    }
+    #head{
+        font-size: 25px;
+    }
+    .about_line{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 95%;
+    }
+    .contact_head p{
+        width: 150px;
+    }
+    .contact_form p{
+        width: 80%;
+    }
+    .about_text p{
+        font-size: 18px;
+    }
+
+    .work_text p{
+        width: 80%;
+    }
+    .Social img{
+        width: 30px;
+        height: 30px;
+    }
+    footer{
+        margin-top: 50px;
+    }
+    #submit_btn {
+        width: auto;
+    }
+
+    form input{
+        width: 70%;
+    }
+
+     .about_head p{
+    width: 80px;
+    font-size: 30px;
+}
+}
+@media (min-width:768px) and (max-width:1020px){
+    .main p{
+        font-size: 60px;
+    }
+
+    .about_head p{
+    width: 50px;
+}
+    .left_text{
+        margin-left: 30px;
+    }
+
+    .hero{
+        gap:0px;
+    }
+
+    .right img{
+        width: 450PX;
+    }
+    .about_line{
+        gap: 150px;
+    }
+
+   
+    #head{
+        width: 150px;
+         font-size: 50px;
+    }
+    .line img{
+        width: 100%;
+    }
+    .contact_head p{
+        width: 300px;
+    }
+  
+}
+
+
+
