@@ -80,7 +80,7 @@ I am a frontend developer passionate about building modern and responsive web ap
 ## 📬 Contact
 
 * GitHub: https://github.com/kharkar2912
-* Email: (add your email)
+* Email: (rohitkharkar70@gmail.com)
 
 ---
 
