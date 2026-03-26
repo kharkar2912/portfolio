@@ -401,6 +401,7 @@ color: white;
     }
     #head{
         font-size: 25px;
+        
     }
     .about_line{
         display: flex;
@@ -431,6 +432,7 @@ color: white;
     .Social img{
         width: 20px;
         height: 20px;
+        
     }
     .footer p{
         font-size: 20px;
@@ -518,6 +520,7 @@ color: white;
     .Social img{
         width: 30px;
         height: 30px;
+        margin: 8px;
     }
     footer{
         margin-top: 50px;
